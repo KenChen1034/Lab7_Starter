@@ -11,7 +11,7 @@ const urlToCache = [
   'assets/scripts/main.js',
   'assets/styles/main.css',
   'index.html',
-  'avicon.ico',
+  'favicon.ico',
   'sw.js',
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
