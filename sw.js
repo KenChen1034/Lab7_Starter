@@ -6,7 +6,7 @@ const urlToCache = [
   
   'assets/components/RecipeCards.js',
   'assets/components/RecipeExpand.js',
-  'assets/images/icons/',
+  
   'assets/scripts/Router.js',
   'assets/scripts/main.js',
   'assets/styles/main.css',
