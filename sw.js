@@ -4,9 +4,6 @@
 const CACHE_NAME = 'lab-7-starter';
 const urlToCache = [
   
-  'assets/components/RecipeCard.js',
-  'assets/components/RecipeExpand.js',
-  
   'assets/scripts/Router.js',
   'assets/scripts/main.js',
   'assets/styles/main.css',
