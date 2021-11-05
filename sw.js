@@ -2,7 +2,17 @@
 //         so do not move it next to the other scripts
 
 const CACHE_NAME = 'lab-7-starter';
-const recipes = [
+const urlToCache = [
+  
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/assets/components/RecipeCard.js',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/assets/components/RecipeExpand.js',
+  'https://github.com/KenChen1034/Lab7_Starter/tree/main/assets/images/icons',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/assets/scripts/Router.js',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/assets/scripts/main.js',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/assets/styles/main.css',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/index.html',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/favicon.ico',
+  'https://github.com/KenChen1034/Lab7_Starter/blob/main/sw.js',
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
@@ -20,7 +30,7 @@ self.addEventListener('install', function (event) {
     caches.open(CACHE_NAME)
     .then(function(cache){
       console.log('Opened cache');
-      return cache.addAll(recipes);
+      return cache.addAll(urlToCache);
     })
   );
 });
