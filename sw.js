@@ -4,15 +4,15 @@
 const CACHE_NAME = 'lab-7-starter';
 const urlToCache = [
   
-  'KenChen1034/Lab7_Starter/tree/main/assets/components',
+  //enChen1034/Lab7_Starter/tree/main/assets/components',
   //'assets/components/RecipeExpand.js',
   //'assets/images/icons/',
   //'assets/scripts/Router.js',
   //'assets/scripts/main.js',
   //'assets/styles/main.css',
-  //'index.html',
-  //'favicon.ico',
- // 'sw.js',
+  'index.html',
+  'favicon.ico',
+  'sw.js',
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
