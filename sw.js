@@ -3,7 +3,6 @@
 
 const CACHE_NAME = 'lab-7-starter';
 const urlToCache = [
-  'kenchen1034.github.io/Lab7_Starter',
   'assets/components/RecipeCard.js',
   'assets/components/RecipeExpand.js',
   'assets/scripts/Router.js',
